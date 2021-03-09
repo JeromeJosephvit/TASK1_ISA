@@ -66,7 +66,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.396"
-        tools:ignore="Autofill,TextFields" />
+        tools:ignore="Autofill,HardcodedText,TextFields" />
 
     <EditText
         android:id="@+id/editText"
@@ -78,7 +78,6 @@
         android:ems="6"
         android:hint="  Password"
         android:inputType="textPersonName"
-        android:password="true"
         android:textColorHint="#FFFFFF"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
